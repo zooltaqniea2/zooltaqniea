@@ -1,0 +1,28 @@
+<style type="text/css" scoped> 
+ul.kangismet_recent{list-style:none;margin:0;padding:0;} 
+.kangismet_recent li{background:transparent;margin:0 0 6px!important;padding:3px  
+!important;display:block;clear:both;overflow:hidden;list-style:none; border: 1px solid transparent;
+border-radius:9px; max-height: 100px;text-align: right;} 
+.kangismet_recent li:hover{background:#fff;border: 1px solid #e9e9e9;}
+.kangismet_recent a {text-decoration:none;}
+.avatarImage{padding:3px;background:#fefefe;float:right;margin:0 6px 0 0;position:relative;overflow:hidden;} 
+.avatarRound{border-radius:100px;width:35px;height:35px} 
+.kangismet_recent li span{margin-top:4px;color: #5E5C5C;display: block;font-size: 12px;line-height: 1.4;font-family: cursive,'Droid Arabic Naskh';} 
+</style>
+<script type="text/javascript">
+//<![CDATA[
+    var
+ numComments  = 8,
+ showAvatar  = true,
+ avatarSize  = 35,
+ roundAvatar = true,
+ characters  = 40,
+ defaultAvatar  = "http://www.gravatar.com/avatar/?d=mm",
+ hideCredits = true;
+ maxfeeds=50,
+ adminBlog='Name';
+//]]>
+</script>
+<script type="text/javascript" src="https://ar1web-com.googlecode.com/svn/Hm/recentcomments.js"></script>
+<script type="text/javascript" src="/feeds/comments/default?alt=json&amp;callback=kangismet_recent&amp;&amp;max-results=50">
+</script>
